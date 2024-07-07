@@ -11,10 +11,16 @@
     padding: 0px;
  }
   /* shared styles */
+  main section{
+    margin-top: 130px;
+
+  }
   .dark-2{
     color: #474747;
   }
-
+  .secondary-bg{
+    background-color: #FFF8F3;
+  }
   .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -28,6 +34,13 @@
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+  }
+  .section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
   }
 /* nav styles */
 nav{
@@ -79,7 +92,55 @@ nav li a{
     /* object-fit: contain; */
 }
 .banner-description{
+    text-align: center;
     font-size: 18px;
-    font-weight: 400;
+    /* font-weight: 400; */
     margin-bottom: 30px;
+    color: #757575;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 156px;
+    text-align: center;
+}
+.about-iteams{
+    display: flex;
+    justify-content: space-around;
+}
+.iteam-title{
+    text-align: center;
+    font-size: 20px;
+    color: #757575;
+}
+.iteam-description{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px #a59b9b;
+    border-radius: 5px;margin-bottom: 130px;
+}
+.skill-description{
+    font-size: 16px;
+    color: #757575;
+    padding: 3px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
