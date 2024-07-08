@@ -212,8 +212,10 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 footer input[type="text"], footer input[type="email"]{
     height: 64px;
     width: 461px;
+    font-family: open-sans-normal;
 }
 footer textarea{
+    font-family: open-sans-normal;
     height: 180px;
     width: 461px;
     padding-top: 18px;
@@ -228,6 +230,7 @@ footer textarea{
     padding-bottom: 130px;
 }
 footer input{
+    font-family: open-sans-normal;
     border: none;
     padding-top: 18px;
     padding-bottom: 18px;
@@ -236,6 +239,7 @@ footer input{
     height: 64px;
     width: 461px;
 }
+
 ::placeholder{
     font-size: 16px;
     color: #757575;
